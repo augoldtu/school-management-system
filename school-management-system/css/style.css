@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Sarabun', sans-serif;
+}
+
+/* ซ่อน Scrollbar ที่ไม่จำเป็นแต่ยังเลื่อนดูได้ */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
